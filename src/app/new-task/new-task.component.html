@@ -1,14 +1,14 @@
-<h1>New Task</h1>
+<h3>New flowers</h3>
 <div>
- <label>Enter Task Description:</label>
+ <label>Enter flowers name:</label>
  <input #newDescription>
 </div>
 <div>
-  <label>Task Priority:</label>
+  <label>Flower Number:</label>
   <select #newPriority>
-    <option [value]="1"> Low Priority </option>
-    <option [value]="2"> Medium Priority </option>
-    <option [value]="3"> High Priority </option>
+    <option [value]="1"> add 1 </option>
+    <option [value]="2"> add 2</option>
+    <option [value]="3"> add 3 </option>
   </select>
   <button (click)="submitForm(newDescription.value, newPriority.value); newDescription.value='';">Add</button>
 </div>

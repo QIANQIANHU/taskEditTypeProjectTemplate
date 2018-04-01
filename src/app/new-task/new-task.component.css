@@ -1,0 +1,10 @@
+h3 {
+  font-weight: lighter;
+  font-family: monospace;
+  margin: 20px;
+  text-decoration: underline;
+}
+
+label{
+  margin: 20px;
+}

@@ -1,13 +1,13 @@
 <div *ngIf="childSelectedTask">
   <h3>{{childSelectedTask.description}}</h3>
   <p>Task Complete? {{childSelectedTask.done}}</p>
-  <h3>Edit Task</h3>
-  <label>Enter Task Description:</label>
+  <h3>Edit flower</h3>
+  <label>Enter Flower Name:</label>
   <input [(ngModel)]="childSelectedTask.description">
-  <label>Enter Task Priority (1-3):</label>
+  <label>Enter Flower Numbers (1-3):</label>
   <br>
-  <input type="radio" [(ngModel)]="childSelectedTask.priority" [value]="1">1 (Low Priority)<br>
-  <input type="radio" [(ngModel)]="childSelectedTask.priority" [value]="2">2 (Medium Priority)<br>
-  <input type="radio" [(ngModel)]="childSelectedTask.priority" [value]="3">3 (High Priority)
+  <input type="radio" [(ngModel)]="childSelectedTask.priority" [value]="1">1 (or Low percentage in whole Bouquet)<br>
+  <input type="radio" [(ngModel)]="childSelectedTask.priority" [value]="2">2 (or Medium percentage in whole Bouquet)<br>
+  <input type="radio" [(ngModel)]="childSelectedTask.priority" [value]="3">3 (or High percentage in whole Bouquet)
   <button (click)="finishedEditing()">Done</button>
 </div>

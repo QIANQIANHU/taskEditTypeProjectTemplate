@@ -1,11 +1,16 @@
 .container {
   background-color: #234653;
+    /* background-image: url("../assets/img/leaf.jpg");
+    background-size: cover; */
 }
-h1, h2 {
+h1, h2, h3{
   color: beige;
   font-weight: lighter;
   font-family: monospace;
+  text-align: center;
 }
 body{
   background-color: #BBDFDD;
+
+
 }

@@ -17,9 +17,13 @@ export class AppComponent {
   selectedTask = null;
 
   masterTaskList: Task[] = [
-    new Task('Finish weekend Angular homework for Epicodus course', 3),
-    new Task('Begin brainstorming possible JavaScript group projects', 2),
-    new Task('Add README file to last few Angular repos on GitHub', 2)
+    new Task('Rose', 3),
+    new Task('Peony', 2),
+    new Task('Hydrangea', 1),
+    new Task('Calla Lily', 3),
+    new Task('Lily', 2),
+    new Task('Dahlia', 1),
+    new Task('Tulip', 3)
   ];
 
   editTask(clickedTask) {
