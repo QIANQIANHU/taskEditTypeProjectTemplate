@@ -8,7 +8,7 @@ import { Task } from './models/task.model';
 })
 
 export class AppComponent {
-  currentFocus: string = 'Angular Homework';
+  currentFocus: string = 'Build your own bouquet';
   currentTime = new Date();
   month: number = this.currentTime.getMonth() + 1;
   day: number = this.currentTime.getDate();

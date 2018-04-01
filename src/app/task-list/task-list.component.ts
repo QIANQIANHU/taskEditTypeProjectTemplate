@@ -12,18 +12,18 @@ export class TaskListComponent {
 
   @Input() childTaskList: Task[];
   @Output() clickSender = new EventEmitter();
-  
+
   editButtonClicked(taskToEdit: Task) {
   this.clickSender.emit(taskToEdit);
 }
 
   priorityColor(currentTask){
     if (currentTask.priority === 3){
-      return "bg-danger";
+      return "text-success";
     } else if (currentTask.priority === 2) {
-      return  "bg-warning";
+      return  "text-info";
     } else {
-      return "bg-info";
+      return "text-secondary";
     }
   }
 }
